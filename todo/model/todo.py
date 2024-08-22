@@ -22,7 +22,10 @@ class TodoBook:
     def __init__(self) -> None:
         self.todos: dict[int, Todo] = {}
 
-        
+    def add_todo(self, title: str, description: str) -> int: 
+           
+
+
 
 
 
